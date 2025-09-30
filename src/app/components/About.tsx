@@ -32,12 +32,11 @@ export default function About() {
                 {`Hi there, I'm Sejal!`}
               </Typography>
               <Typography variant="body1" color="text.primary" paragraph>
-                {`I'm a software engineer and soon-to-be Master's student at the 
-                University of Waterloo in Computer Science. I recently graduated 
-                with distinction in Software Engineering from the University of 
-                Victoria, where my background in mathematics, science, and community 
-                service fueled my passion for human-computer interaction, AI, and 
-                leadership to find creative solutions through code.`}
+                {`I'm a Master's student at the University of Waterloo in Computer 
+                Science. I recently graduated with distinction in Software Engineering 
+                from the University of Victoria, where my background in mathematics, 
+                science, and community service fueled my passion for human-computer 
+                interaction, AI, and leadership to find creative solutions through code.`}
               </Typography>
               <Box
                 sx={{
