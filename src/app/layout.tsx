@@ -4,7 +4,7 @@ import { Poppins } from "next/font/google";
 import Header from "./components/Header";
 import { Providers } from "./providers";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sejal Agarwal",
   description: "Sejal Agarwal's Personal Website",
   openGraph: {
