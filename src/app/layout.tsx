@@ -4,25 +4,44 @@ import { Poppins } from "next/font/google";
 import Header from "./components/Header";
 import { Providers } from "./providers";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Sejal Agarwal",
   description: "Sejal Agarwal's Personal Website",
-  icons: {
-    icon: "data:image/svg+xml;utf8," +
-      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">' +
-        '<text x="0" y="108" font-size="108">👩🏽‍💻</text>' +
-      "</svg>"
-  }
+  openGraph: {
+    title: "Sejal Agarwal",
+    description: "Software developer & HCI researcher",
+    url: "https://your-domain.com",
+    siteName: "Sejal Agarwal",
+    images: [
+      {
+        url: "https://your-domain.com/womanProgrammer.png",
+        width: 1200,
+        height: 630,
+        alt: "Woman programmer illustration",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sejal Agarwal",
+    description: "Software developer & HCI researcher",
+    images: ["https://your-domain.com/womanProgrammer.png"],
+  },
 };
 
 const poppins = Poppins({
-  weight: ["400","700"],
+  weight: ["400", "700"],
   subsets: ["latin"],
   variable: "--font-poppins",
   display: "swap",
 });
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body
@@ -32,7 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         `}
       >
         <Providers>
-        <Header />
+          <Header />
           {children}
         </Providers>
       </body>
