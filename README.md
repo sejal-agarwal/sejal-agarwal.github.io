@@ -6,7 +6,7 @@ Welcome to the source code for my personal portfolio website! Built with Next.js
 
 ## 🚀 Live Demo
 
-https://sejal-agarwal.github.io
+https://sejalagarwal.ca
 
 ---
 
