@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sejal Agarwal",
     description: "Software developer & HCI researcher",
-    url: "https://your-domain.com",
+    url: "https://sejalagarwal.ca",
     siteName: "Sejal Agarwal",
     images: [
       {
-        url: "https://your-domain.com/womanProgrammer.png",
+        url: "https://sejalagarwal.ca/womanProgrammer.png",
         width: 1200,
         height: 630,
         alt: "Woman programmer illustration",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sejal Agarwal",
     description: "Software developer & HCI researcher",
-    images: ["https://your-domain.com/womanProgrammer.png"],
+    images: ["https://sejalagarwal.ca/womanProgrammer.png"],
   },
 };
 
