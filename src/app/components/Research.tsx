@@ -61,13 +61,12 @@ export function Research() {
               variant="body1"
               sx={{ color: theme.palette.common.white }}
             >
-              {`My research interests lie at the intersection of human-computer 
-              interaction (HCI), artificial intelligence, and educational technology. 
-              I'm passionate about designing AI-driven learning environments that 
-              adapt in real time to students' needs, improving engagement and retention. 
-              Ultimately, I aim to explore how novel HCI paradigms and machine-learning 
-              techniques can support more effective, inclusive, and personalized learning 
-              experiences.`}
+              {`My research interests lie at the intersection of human-computer interaction (HCI), 
+              AI, and educational technology. As a student in the HCI Lab, supervised by Dr. Ana Crisan, 
+              I study how AI-driven systems can enhance learning experiences, empower students, and support 
+              instructors in more effective teaching. I am particularly interested in designing and evaluating 
+              human-centered, interactive AI tools that improve learner experiences and help educators make 
+              informed pedagogical decisions.`}
             </Typography>
           </Box>
         </Box>
