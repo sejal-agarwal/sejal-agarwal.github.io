@@ -62,7 +62,7 @@ export function Research() {
               sx={{ color: theme.palette.common.white }}
             >
               {`My research interests lie at the intersection of human-computer interaction (HCI), 
-              AI, and educational technology. As a student in the HCI Lab, supervised by Dr. Ana Crisan, 
+              AI, and educational technology. As a student in the Insight Lab, supervised by Dr. Ana Crisan, 
               I study how AI-driven systems can enhance learning experiences, empower students, and support 
               instructors in more effective teaching. I am particularly interested in designing and evaluating 
               human-centered, interactive AI tools that improve learner experiences and help educators make 
