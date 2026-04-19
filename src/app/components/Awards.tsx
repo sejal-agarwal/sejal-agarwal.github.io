@@ -13,6 +13,20 @@ interface Award {
 
 const AWARDS: Award[] = [
   {
+    name: "Women in Computer Science Graduate Scholarship",
+    amount: "$3,000",
+    year: "2026",
+    description:
+      "Awarded to women who demonstrate academic excellence and research potential.",
+  },
+  {
+    name: "University of Waterloo Graduate Scholarship",
+    amount: "$4,000",
+    year: "2026",
+    description:
+      "Given to graduate students based on academic achievement and research promise.",
+  },
+  {
     name: "Bit Quill Technologies Scholarship for Women",
     amount: "$806",
     year: "2023",

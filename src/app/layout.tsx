@@ -44,6 +44,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="icon"
+          href="data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2072%2072'%3E%3Ctext%20y='54'%20font-size='56'%3E%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3C/text%3E%3C/svg%3E"
+        />
+      </head>
       <body
         className={`
           ${poppins.variable}

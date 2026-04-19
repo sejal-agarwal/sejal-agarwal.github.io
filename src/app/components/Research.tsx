@@ -55,7 +55,7 @@ export function Research() {
                 color: theme.palette.grey[100],
               }}
             >
-              Research Interests
+              Research
             </Typography>
             <Typography
               variant="body1"
