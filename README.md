@@ -17,7 +17,7 @@ https://sejalagarwal.ca
 - **Animation:** Framer Motion  
 - **Icons:** MUI Icons  
 - **Font:** Poppins (via `next/font/google`)  
-- **Deployment:** Github Actions  
+- **Deployment:** Vercel  
 
 ---
 

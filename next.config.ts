@@ -1,6 +1,7 @@
-// next.config.js
-/** @type {import('next').NextConfig} */
-module.exports = {
-  output: 'export',
-  // no basePath/assetPrefix needed for a root-level site
+import type { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
+  // Vercel handles deployment for this app.
 };
+
+export default nextConfig;
