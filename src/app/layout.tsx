@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "Sejal Agarwal",
     images: [
       {
-        url: "https://sejalagarwal.ca/original-website/womanProgrammer.png",
+        url: "https://sejalagarwal.ca/womanProgrammer.png",
         width: 1200,
         height: 630,
         alt: "Woman programmer illustration",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sejal Agarwal",
     description: "Software developer & HCI researcher",
-    images: ["https://sejalagarwal.ca/original-website/womanProgrammer.png"],
+    images: ["https://sejalagarwal.ca/womanProgrammer.png"],
   },
 };
 
